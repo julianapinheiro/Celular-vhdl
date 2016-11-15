@@ -9,7 +9,7 @@ end Seletores_DECOD;
 
 architecture bhv of Seletores_DECOD is
 
-		-- O DECOD é utilizado para decodificar a entrada de algarismos da senha pelos switches SW(9..0)
+		-- O DECOD é utilizado para decodificar a entrada de algoritimos da senha pelos switches SW(9..0)
 		-- Ele retorna o número do switch se apenas um deles for pressionado, 
 		-- isto é, se SW(9) é pressionado, e apenas ele, a saída do DECOD será "01001"(2) = "9"(10)
 		-- Se mais de um switch é pressionado, ou nenhum é pressionado, a saída será "11111", referente a " " (espaço/em branco), no decod7seg
